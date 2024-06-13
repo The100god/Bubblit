@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="level">Level -<span id="levelno"> 0</span></div>
+        <div id="panal">
+            <div class="ptop">
+                <div class="elem">
+                    <h2>Hit</h2>
+                    <div id="hitval" class="box">0</div>
+                </div>
+                <div class="elem">
+                    <h2>Time</h2>
+                    <div id="time" class="box">0</div>
+                </div>
+                <div class="elem">
+                    <h2>Score</h2>
+                    <div id="scoreval" class="box">0</div>
+                </div>
+                <div class="elem highsco">
+                    <h2 class="highscotxt">High Score</h2>
+                    <div id="highscoreval" class="box">0</div>
+                </div>
+                <div id="home" class="gth">
+                    <h2>🏠</h2>
+                </div>
+                <div id="rule" class="rules">
+                    <div class="rulebox">
+
+
+                        <h2>Rule</h2>
+                        <div class="rule-cont">
+                            <h3>Bubblit Rules</h3>
+                            <ul>
+                                <li>For playing Bubblit click on Play.</li>
+                                <li>In this game at the top given an heading Hit that indicate the number you have to
+                                    hit in panal given at the below the top board.</li>
+                                <li>When a number is appear on "hit panal". </li>
+                                <li>Find the number on screen and click on it.</li>
+                                <li>If you click on right number it adds 10 to your score.</li>
+                                <li>And if you click on wrong number it deduct 10 from your score. </li>
+                                <li>the game has time limit of 1 minute</li>
+                                <li>At the top left we have Home button if you don't want to continue the game you can
+                                    click on it and go back to home.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="enter">
+                <h1 class="bbl">Bubblit</h1>
+                <div id="play" class="playbtn">Play</div>
+
+            </div>
+            <div class="pbtm">
+
+
+            </div>
+            <div class="over">
+                <h1 class="anime">Game over</h1>
+                <div class="finalscore">
+                    <h2 id="finalscoretext">Final Score: </h2>
+                    <h2 id="finalscoreval">0</h2>
+                </div>
+
+                <div id="playagain" class="btn">Play Again!</div>
+
+            </div>
+
+        </div>
+        <div class="sign">
+            created by saurabh goyal
+        </div>
+    </div>
+
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
