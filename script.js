@@ -12,6 +12,7 @@ const play = (t, s) => {
     ? localStorage.getItem("Highscore")
     : 0;
   document.querySelector("#highscoreval").textContent = highscore;
+  document.querySelector("#levelno").textContent = levelNo;
 
   const handlePlayAgain = () => {
     document.querySelector("#playagain").addEventListener("click", () => {
