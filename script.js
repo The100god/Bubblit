@@ -134,6 +134,11 @@ const play = (t, s) => {
 
   const handleClickOnBubble = () => {
     document.querySelector(".pbtm").addEventListener("click", (e) => {
+
+      if (!e.target.classList.contains("bubble")) {
+        return; // Only respond if the clicked element is a bubble
+      }
+      
       var clickedNum = Number(e.target.textContent);
 
       if (clickedNum === hitrn) {
