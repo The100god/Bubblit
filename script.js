@@ -17,6 +17,7 @@ const play = (t, s) => {
     document.querySelector("#playagain").addEventListener("click", () => {
       document.querySelector(".over").style.display = "none";
       document.querySelector(".pbtm").style.display = "flex";
+      levelNo = 0
       play(60, 0);
     });
   };
