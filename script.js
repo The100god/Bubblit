@@ -19,7 +19,7 @@ const play = (t, s) => {
       document.querySelector(".over").style.display = "none";
       document.querySelector(".pbtm").style.display = "flex";
       levelNo = 0
-      play(60, 0);
+      play(120, 0);
     });
   };
 
@@ -138,7 +138,7 @@ const play = (t, s) => {
       if (!e.target.classList.contains("bubble")) {
         return; // Only respond if the clicked element is a bubble
       }
-      
+
       var clickedNum = Number(e.target.textContent);
 
       if (clickedNum === hitrn) {
@@ -165,7 +165,7 @@ const entergame = () => {
   document.querySelector("#play").addEventListener("click", () => {
     document.querySelector(".enter").style.display = "none";
     document.querySelector(".pbtm").style.display = "flex";
-    play(60, 0);
+    play(120, 0);
   });
 };
 

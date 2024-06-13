@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Cabin+Sketch:wght@400;700&family=Danfo&family=Jacquard+12&family=Jersey+25+Charted&family=Rubik+Moonrocks&family=Tourney:ital,wght@0,100..900;1,100..900&family=Tulpen+One&family=Zeyada&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +38,9 @@ body::-webkit-scrollbar {
   margin-bottom: 20px;
   font-size: 3vw;
   margin-top: -30px;
-  font-weight: 600;
+  font-family: "Rubik Moonrocks", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   user-select: none;
   background: -webkit-linear-gradient(bottom, rgb(109, 209, 137), rgb(102, 37, 37));
   background-clip: text;
@@ -127,6 +131,9 @@ body::-webkit-scrollbar {
 
 .rulebox>h2{
 font-size: 1.4vw;
+font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .rule-cont{
@@ -169,6 +176,9 @@ font-size: 1.4vw;
   }
 
 .rule-cont>h3{
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
     font-size: 1.7vw;
     font-weight: 600;
     border-bottom: 2px solid rgb(231, 190, 153);
@@ -186,7 +196,10 @@ font-size: 1.4vw;
     width: 100%;
     height: fit-content;
     text-align: justify;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
+    font-family: "Bellefair", serif;
+  font-weight: 500;
+  font-style: normal;
     color: #6a6969;
     text-wrap: wrap;
 }
@@ -200,7 +213,9 @@ font-size: 1.4vw;
 }
 .elem h2 {
   font-size: 1.8vw;
-  font-weight: 550;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .box {
@@ -210,6 +225,9 @@ font-size: 1.4vw;
   padding: 10px 20px;
   background-color: #fff;
   border-radius: 7px;
+  font-family: "Bellefair", serif;
+  /* font-weight: 400; */
+  font-style: normal;
   font-size: 1.5vw;
   font-weight: 600;
   color: #0da271;
@@ -227,6 +245,11 @@ font-size: 1.4vw;
 }
 
 .bbl {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   font-size: 6vw;
   font-weight: 700;
   background: -webkit-linear-gradient(rgb(39, 87, 75), rgb(213, 17, 231));
@@ -240,15 +263,20 @@ font-size: 1.4vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Rubik Moonrocks", sans-serif;
+  font-weight: 400;
+  font-style: normal;
     font-size: 3vw;
-    font-weight: 700;
+    /* font-weight: 700; */
     padding: 30px;
     border-radius: 50%;
-    background-color: darksalmon;
+    background-color: #07b312;
+  color: #fff;
     cursor: pointer;
 }
 .playbtn:hover{
-    background-color: rgb(243, 134, 97);
+  background-color: #098211;
+  color: #fff;
 }
 
 .pbtm {
@@ -295,7 +323,14 @@ font-size: 1.4vw;
   
 }
 
+.overText{
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .over > h1 {
+  
   font-size: 4.5vw;
   color: brown;
   margin-bottom: 20px;
@@ -311,10 +346,13 @@ font-size: 1.4vw;
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .finalscore h2 {
-  font-size: 1.7vw;
+  font-size: 2.7vw;
   font-weight: 500;
 }
 
@@ -328,9 +366,11 @@ font-size: 1.4vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.8vw;
+  font-size: 1.4vw;
   padding: 10px 20px;
+  font-family: "Rubik Moonrocks", sans-serif;
   font-weight: 200;
+  font-style: normal;
   cursor: pointer;
   background-color: #07b312;
   color: #fff;
