@@ -1,14 +1,14 @@
 let count = true;
 
 const play = (t, s) => {
-  var timerval = t;
-  var leveluptimeval = t;
-  var score = s;
-  var cross = 100;
-  var hitrn = 0;
-  var home = false;
-  var levelNo = 0;
-  var highscore = localStorage.getItem("Highscore")
+  let timerval = t;
+  let leveluptimeval = t;
+  let score = s;
+  let cross = 100;
+  let hitrn = 0;
+  let home = false;
+  let levelNo = 0;
+  let highscore = localStorage.getItem("Highscore")
     ? localStorage.getItem("Highscore")
     : 0;
   document.querySelector("#highscoreval").textContent = highscore;
@@ -139,7 +139,7 @@ const play = (t, s) => {
         return; // Only respond if the clicked element is a bubble
       }
 
-      var clickedNum = Number(e.target.textContent);
+      let clickedNum = Number(e.target.textContent);
 
       if (clickedNum === hitrn) {
         getIncreaseScoreValue();
